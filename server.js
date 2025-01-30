@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors');
 
 const app = express();
-const PORT = 5173;
+const PORT = 5000;
 const SECRET = 'ola';
 
 // Middleware
