@@ -31,7 +31,7 @@ const User = mongoose.model('User', UserSchema);
 
 // Rutas
 // Registro de usuario
-app.post('/Register', async (req, res) => {
+app.post('/register', async (req, res) => {
   const { username, password } = req.body;
 
   if (!username || !password) {
